@@ -1,4 +1,3 @@
-dic = {}
 score = 0
 
 print('Welcome to the Bruni test!')
@@ -68,11 +67,36 @@ print('8-11: Happy Bruni')
 print('4-7: Sad Bruni')
 print('0-3: Angry Bruni')
 
-if score == ():
+While True:
+if score == 12:
     from tkinter import       
         root = Tk()      
         canvas = Canvas(root, width = 300, height = 300)      
         canvas.pack()      
-        img = PhotoImage(file="ball.ppm")      
+        img = PhotoImage(file="bruni_bruni.jpg")      
         canvas.create_image(20,20, anchor=NW, image=img)      
-        mainloop()  
+        mainloop()
+if score == 8 to 11:
+    from tkinter import       
+        root = Tk()      
+        canvas = Canvas(root, width = 300, height = 300)      
+        canvas.pack()      
+        img = PhotoImage(file="happy_bruni.jpg")      
+        canvas.create_image(20,20, anchor=NW, image=img)      
+        mainloop()
+if score == 4 to 7:
+    from tkinter import       
+        root = Tk()      
+        canvas = Canvas(root, width = 300, height = 300)      
+        canvas.pack()      
+        img = PhotoImage(file="sad_bruni.jpg")      
+        canvas.create_image(20,20, anchor=NW, image=img)      
+        mainloop()
+if score == 0 to 3:
+    from tkinter import       
+        root = Tk()      
+        canvas = Canvas(root, width = 300, height = 300)      
+        canvas.pack()      
+        img = PhotoImage(file="angry_bruni.jpg")      
+        canvas.create_image(20,20, anchor=NW, image=img)      
+        mainloop()
